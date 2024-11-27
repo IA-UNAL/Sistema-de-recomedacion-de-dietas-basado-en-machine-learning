@@ -20,3 +20,15 @@ Este proyecto implementa un sistema de recomendación basado en inteligencia art
   - Codificación `one-hot` y `LabelEncoder` para variables categóricas.
   - Manejo de desbalance de clases mediante técnicas avanzadas.
 - **Optimización**: Búsqueda de hiperparámetros con `GridSearch` y validación cruzada.
+
+- ## Resultados
+
+El modelo **LightGBM** obtuvo el mejor rendimiento en todas las métricas:
+
+| Modelo            | Precisión | Recall   | F1-Score | AUC       |
+|-------------------|-----------|----------|----------|-----------|
+| LightGBM         | 0.973     | 0.973    | 0.973    | 0.998     |
+| XGBoost          | 0.972     | 0.972    | 0.972    | 0.998     |
+| Random Forest    | 0.950     | 0.950    | 0.950    | 0.994     |
+| SVC              | 0.919     | 0.918    | 0.918    | 0.994     |
+| MLP              | 0.913     | 0.912    | 0.912    | 0.979     |
