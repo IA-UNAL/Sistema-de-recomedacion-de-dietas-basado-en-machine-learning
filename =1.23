@@ -1,0 +1,10 @@
+Requirement already satisfied: numpy in /home/cabe/miniconda3/envs/cabe/lib/python3.9/site-packages (1.22.4)
+Collecting numpy
+  Using cached numpy-2.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+Using cached numpy-2.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (19.5 MB)
+Installing collected packages: numpy
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.22.4
+    Uninstalling numpy-1.22.4:
+      Successfully uninstalled numpy-1.22.4
+Successfully installed numpy-2.0.2
