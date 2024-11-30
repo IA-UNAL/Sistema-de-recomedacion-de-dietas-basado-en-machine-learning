@@ -5,7 +5,7 @@ Este proyecto implementa un sistema de recomendación basado en inteligencia art
 ## Características
 
 - **Personalización**: Recomendaciones ajustadas según edad, peso, altura, estado de salud y metas nutricionales.
-- **Modelos de aprendizaje automático**: 
+- **Modelos de aprendizaje automático**:
   - LightGBM (mejor desempeño)
   - Random Forest
   - XGBoost
@@ -21,14 +21,26 @@ Este proyecto implementa un sistema de recomendación basado en inteligencia art
   - Manejo de desbalance de clases mediante técnicas avanzadas.
 - **Optimización**: Búsqueda de hiperparámetros con `GridSearch` y validación cruzada.
 
-- ## Resultados
+## Resultados
 
 El modelo **LightGBM** obtuvo el mejor rendimiento en todas las métricas:
 
 | Modelo            | Precisión | Recall   | F1-Score | AUC       | Media Geométrica |
 |-------------------|-----------|----------|----------|-----------|------------------|
-| LightGBM          | 0.972764  | 0.973269 | 0.972937 | 0.997934  | 0,984269         |
-| XGBoost           | 0.971914  | 0.972241 | 0.972010 | 0.997808  | 0,983530         |
-| Random Forest     | 0.950179  | 0.949966 | 0.949951 | 0.994462  | 0,969969         |
-| SVC               | 0.919142  | 0.918095 | 0.917951 | 0.993561  | 0,949211         |
-| MLP               | 0.912529  | 0.911583 | 0.911549 | 0.979207  | 0,946237         |
+| LightGBM          | 0.972764  | 0.973269 | 0.972937 | 0.997934  | 0.984269         |
+| XGBoost           | 0.971914  | 0.972241 | 0.972010 | 0.997808  | 0.983530         |
+| Random Forest     | 0.950179  | 0.949966 | 0.949951 | 0.994462  | 0.969969         |
+| SVC               | 0.919142  | 0.918095 | 0.917951 | 0.993561  | 0.949211         |
+| MLP               | 0.912529  | 0.911583 | 0.911549 | 0.979207  | 0.946237         |
+
+## Estructura del proyecto
+
+### [EntrenarModelos](./EntrenarModelos)
+Esta carpeta contiene todo el análisis necesario para evaluar y seleccionar el modelo con mejor rendimiento. Incluye:
+- Preprocesamiento de datos.
+- Pruebas de distintos algoritmos de aprendizaje automático.
+- Código para la optimización de hiperparámetros.
+- Generación de los archivos `.pkl` del modelo final.
+
+### [Interfaz](./Interfaz)
+En esta carpeta se encuentra la versión final de la interfaz desarrollada con Tkinter. Utiliza el modelo entrenado con LightGBM para realizar recomendaciones de dietas personalizadas a partir de los archivos `.pkl`. La interfaz está lista para ser utilizada en tiempo real por los usuarios.
