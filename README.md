@@ -1,4 +1,4 @@
-# Sistema de Recomendación de Dietas Personalizadas
+# Sistema de Recomendación para Soluciones Nutricionales Personalizadas utilizando Técnicas de Aprendizaje Automático
 
 Este proyecto implementa un sistema de recomendación basado en inteligencia artificial para generar soluciones nutricionales personalizadas, promoviendo estilos de vida saludables mediante dietas adaptadas a las características individuales de los usuarios.
 
