@@ -44,3 +44,11 @@ Esta carpeta contiene todo el análisis necesario para evaluar y seleccionar el 
 
 ### [Interfaz](./Interfaz)
 En esta carpeta se encuentra la versión final de la interfaz desarrollada con Tkinter. Utiliza el modelo entrenado con LightGBM para realizar recomendaciones de dietas personalizadas a partir de los archivos `.pkl`. La interfaz está lista para ser utilizada en tiempo real por los usuarios.
+
+##  Publicación asociada
+
+Este proyecto está respaldado por la siguiente publicación científica:
+
+Pérez-Baquero, R. S., Pérez-Baquero, E. B., Palomino-Ramírez, I., & Hoyos-Sánchez, J. P. (2024). *Recommendation System for Personalized Nutritional Solutions Using Machine Learning Techniques*. Revista Facultad de Ingeniería, 33(70), e18720. https://doi.org/10.19053/uptc.01211129.v33.n70.2024.18720
+
+[![Publication](https://img.shields.io/badge/Publication-Revista%20Facultad%20de%20Ingeniería-green)](https://doi.org/10.19053/uptc.01211129.v33.n70.2024.18720)
